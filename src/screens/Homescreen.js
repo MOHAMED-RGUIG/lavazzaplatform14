@@ -45,7 +45,7 @@ export default function Homescreen() {
         {chunk.map((categorie) => (
           <button
             key={categorie}
-            className={`category-btn ${selectedCategorie === categorie || (categorie === 'All' && selectedCategorie === '') ? 'active' : ''} col-xs-3 col-3 col-md-3`}
+            className={`category-btn ${selectedCategorie === categorie || (categorie === 'All' && selectedCategorie === '') ? 'active' : ''} col-xs-12 col-12 col-md-12 col-xl-10`}
             onClick={() => handleCategoryChange(categorie === 'All' ? '' : categorie)}
           >
             {categorie}

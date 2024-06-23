@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  color: black !important;
+}
+.navbar-brand{
+  color: black !important;
+}
+h1{
+  font-size: 20px !important;
+}
+.flex-container{
+  display: flex !important;
+}
+.btn{
+  background-color: black !important;
+  color: white !important;
+  
+}
+.fa-plus{
+    color:black;
+    margin:5px;
+    background-color: #c8c6c6;
+    padding: 5px;
+    border-radius: 3px;
+}
+.bold-text {
+  font-weight: bolder !important;
+}
+.fa-minus{
+color: black;
+
+font-weight: bolder;
+background-color: #c8c6c6;
+padding: 5px;
+border-radius: 3px;
+}
+.fa-trash{
+  color:grey;
+}
+input{
+  margin-top:10px !important;
+}
+.search-bar{
+  width: 650px;
+  margin: 0 auto !important;
+  
+}
+.btn-facebook {
+  background-color: #3b5998 !important;
+}
+
+.btn-twitter {
+  background-color: #55acee !important;
+}
+.btn-google {
+  background-color: #dd4b39 !important;
+}
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.category-btn {
+  width: 70px  !important;
+  background-color: #f0f0f0;
+  border: 0px solid #ddd;
+  color: #333;
+  padding: 7px 4px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 10px;
+  margin: 0 5px;
+}
+
+.category-btn:hover {
+  background-color: black;
+}
+
+.category-btn.active {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+.btn-instagram {
+  background-color: #ac2bac !important;
+}
+.btn-linkedin {
+  background-color: #0082ca !important;
+}
+
+.btn-twitter {
+  background-color: #55acee !important;
+}
+.category-slide {
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+

@@ -42,8 +42,7 @@ export default function Loginscreen() {
             />
             <button onClick={login} className='btn btn-dark mt-3 mb-2 col-12 col-md-12'>LOGIN </button>
             <br />
-            <a href='/register' className='text-dark col-12 col-md-12 mx-auto text-center' style={{ textDecoration: 'none', margin: '0 auto' }}>Click here to register</a>
-          </div>
+ 
         </div>
       </div>
     </div>

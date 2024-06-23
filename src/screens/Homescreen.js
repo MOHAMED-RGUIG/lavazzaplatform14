@@ -41,7 +41,7 @@ export default function Homescreen() {
       chunks.push(categories.slice(i, i + chunkSize));
     }
     return chunks.map((chunk, index) => (
-      <div key={index} className="category-slide">
+      <div key={index} className="category-slide className="col-xs-12 col-12 col-md-12 col-xl-10"">
         {chunk.map((categorie) => (
           <button
             key={categorie}
@@ -73,7 +73,7 @@ export default function Homescreen() {
       </div>
       <img src="https://i.postimg.cc/W1cMftDX/Lavazza1.jpg" alt="Lavazza" className='col-11 col-md-11 mt-3' />
       <div className="category-buttons mt-5 col-xs-12 col-12 col-md-12 col-xl-10">
-        <Carousel 
+        <Carousel className="col-xs-12 col-12 col-md-12 col-xl-10"
           showThumbs={false} 
           infiniteLoop 
           useKeyboardArrows 

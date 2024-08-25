@@ -39,7 +39,7 @@ export const getAllOrders = () => async dispatch => {
     dispatch({ type: 'GET_ORDERS_REQUEST' });
 
     try {
-        const response = await axios.get('https://lavazzaplatformapi1.onrender.com/api/orders/getallorders');
+        const response = await axios.get('https://topclass1.vercel.app/api/orders/getallorders');
         dispatch({ type: 'GET_ORDERS_SUCCESS', payload: response.data });
     } catch (error) {
         dispatch({ 

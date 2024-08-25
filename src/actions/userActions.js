@@ -4,7 +4,7 @@ export const registerUser=(user) =>async dispatch=>{
 
     dispatch({type:'USER_REGISTER_REQUEST'})
 try{
-    const response = await axios.post('https://lavazzaplatformapi1.onrender.com/api/users/register',user)
+    const response = await axios.post('https://topclass1.vercel.app/api/users/register',user)
     console.log(response);
     dispatch({type:'USER_REGISTER_SUCCESS'})
 
@@ -18,7 +18,7 @@ export const loginUser = (user) => async  (dispatch) => {
     dispatch({ type: 'USER_LOGIN_REQUEST' });
 
     try {
-        const response = await axios.post('https://lavazzaplatformapi1.onrender.com/api/users/login', user, {
+        const response = await axios.post('https://topclass1.vercel.app/api/users/login', user, {
             headers: {
                 'Content-Type': 'application/json'
             }
